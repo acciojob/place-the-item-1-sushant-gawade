@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  justify-content: space-between; /* space between items, first & last touch edges */
+  flex-wrap: wrap; /* allows items to move to next line */
+  align-items: flex-start; /* aligns items at top */
+  width: 100%;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  font-size: 80px;
+  color: black;
+  text-align: center;
+}
+
+.red {
+  background-color: #e63323; /* red */
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: #3b7f2a; /* green */
+}
